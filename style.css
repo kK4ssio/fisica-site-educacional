@@ -1,19 +1,79 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(238, 238, 238);
+
 }
 
 
-.topo{
+
+.topo {
     background-color: rgb(67, 73, 87);
     padding: 20px;
     color: rgb(247, 247, 247);
 }
 
-.navegation{
+.navegation {
     padding: 10px;
     background-color: rgb(57, 62, 70);
     color: rgb(247, 247, 247);
     text-align: center;
+
+}
+
+.edu {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(247, 247, 247);
+    width: 700px;
+    gap: 20px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t1 {
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+p {
+    text-align: left;
+}
+
+
+iframe {
+
+    align-items: center;
+    width: 500px;
+    height: 310px;
+    border: none;
+    border-radius: 10px;
+}
+
+.t2 {
+
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.t3 {
+    text-align: center;
+
+    background-color: rgb(247, 247, 247);
+}
+
+.t4 {
+    text-align: center;
+
+    background-color: rgb(247, 247, 247);
+}
+
+.t5 {
+    text-align: center;
+
+    background-color: rgb(247, 247, 247);
 }
