@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(238, 238, 238);
-
+    ;
+    display: grid;
+    background-image: url("./img/web.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -22,20 +26,22 @@ body {
 }
 
 .edu {
+    
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     background-color: rgb(247, 247, 247);
-    width: 700px;
-    gap: 20px;
+    width: 750px;
+
     border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .t1 {
+    
     text-align: center;
     background-color: rgb(247, 247, 247);
 }
@@ -76,4 +82,24 @@ iframe {
     text-align: center;
 
     background-color: rgb(247, 247, 247);
+}
+
+.end {
+    color: rgb(247, 247, 247);
+    background-color: rgb(57, 62, 70);
+    width: 100%;
+}
+
+.end p {
+    text-align: center;
+}
+
+.info-end {
+    color: rgb(247, 247, 247);
+    background-color: rgb(67, 73, 87);
+    border: solid 4px rgb(57, 62, 70);
+}
+
+.info-end p {
+    text-align: left;
 }
