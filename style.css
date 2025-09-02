@@ -17,6 +17,11 @@ body {
     color: rgb(247, 247, 247);
 }
 
+.logo{
+    height: 175px;
+    width: 240px;
+}
+
 .navegation {
     padding: 10px;
     background-color: rgb(57, 62, 70);
